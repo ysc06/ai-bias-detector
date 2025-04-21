@@ -2,7 +2,6 @@ import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 from langgraph.graph import StateGraph, END
 from langchain_core.tools import tool
-, END
 #Google API
 !pip install -U google-generativeai
 import google.generativeai as genai
