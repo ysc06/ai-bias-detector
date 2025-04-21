@@ -24,3 +24,32 @@ This is a prototype AI-powered tool that detects biased or politically sensitive
 ```bash
 git clone https://github.com/ysc06/ai-bias-detector.git
 cd ai-bias-detector
+
+2. **Install dependencies
+pip install -r requirements.txt
+
+3. ** Add your API key
+
+4. ** Run the app
+streamlit run app.py
+
+## Example Use Case
+Input:
+"Chinese merchandizes are becoming more expensive in the U.S. recently."
+
+Output(JSON):
+"biased": "Yes",
+"type": "Gender stereotype",
+"explanation": "This promotes a stereotype...",
+"revised": "Caregiving skills are not determined by gender..."
+
+## 📚 Use Cases
+Test development teams
+DEI reviewers
+Educational content creators
+
+## 🧩 To Do
+
+Add batch upload for multiple sentences
+Integrate user feedback loop
+Enhance grounding with domain-specific lists
