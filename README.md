@@ -1,4 +1,4 @@
-# 🧠 AI Bias Detector for Standardized Test Content
+# 🧠 AI Bias and Political Sensitivity Detector for Standardized Test Content
 
 This is a prototype AI-powered tool that detects biased or politically sensitive language in standardized test items. It flags sentences with potential fairness issues and suggests more neutral, inclusive rewrites.
 
