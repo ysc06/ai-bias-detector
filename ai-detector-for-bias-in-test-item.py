@@ -3,7 +3,6 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 from langgraph.graph import StateGraph, END
 from langchain_core.tools import tool
 #Google API
-!pip install -U google-generativeai
 import google.generativeai as genai
 genai.configure(api_key=st.secrets["api"]["YOUR API KEY"])  
 
