@@ -4,7 +4,7 @@ from langgraph.graph import StateGraph, END
 from langchain_core.tools import tool
 #Google API
 import google.generativeai as genai
-genai.configure(api_key=st.secrets["api"]["YOUR API KEY"])  
+genai.configure(api_key=st.secrets["api"]["AIzaSyDFM0mWcYvUEogpCGi2FMYO5ZqXlSLqdnU"])  
 
 model = genai.GenerativeModel(model_name = "models/gemini-1.5-flash-latest")
 
