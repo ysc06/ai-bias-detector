@@ -1,10 +1,10 @@
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import numpy as np 
+import pandas as pd 
 from langgraph.graph import StateGraph, END
 from langchain_core.tools import tool
 #Google API
 import google.generativeai as genai
-genai.configure(api_key=st.secrets["api"]["AIzaSyDFM0mWcYvUEogpCGi2FMYO5ZqXlSLqdnU"])  
+genai.configure(api_key=st.secrets["api"]["google_key"])  
 
 model = genai.GenerativeModel(model_name = "models/gemini-1.5-flash-latest")
 
