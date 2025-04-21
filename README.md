@@ -25,12 +25,12 @@ This is a prototype AI-powered tool that detects biased or politically sensitive
 git clone https://github.com/ysc06/ai-bias-detector.git
 cd ai-bias-detector
 
-2. **Install dependencies
+2. **Install dependencies**
 pip install -r requirements.txt
 
-3. ** Add your API key
+3. ** Add your API key**
 
-4. ** Run the app
+4. ** Run the app**
 streamlit run app.py
 
 ## Example Use Case
