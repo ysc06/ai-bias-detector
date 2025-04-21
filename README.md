@@ -35,13 +35,16 @@ streamlit run app.py
 
 ## Example Use Case
 Input:
-"Chinese merchandizes are becoming more expensive in the U.S. recently."
+"Recently, I found Chinese merchandizes have become expensive than before."
 
 Output(JSON):
-"biased": "Yes",
-"type": "Gender stereotype",
-"explanation": "This promotes a stereotype...",
-"revised": "Caregiving skills are not determined by gender..."
+    "biased": "Yes",
+
+    "type": "Political sensitivity, Socioeconomic bias, Potential cultural bias",
+
+    "explanation": "This sentence exhibits several potential biases.  Firstly, it touches upon the sensitive area of U.S.-China relations, particularly concerning trade and economics. The phrasing 'Chinese merchandizes' could be interpreted as a generalization about all goods originating from China, potentially contributing to negative stereotypes about Chinese products or manufacturing practices.  Secondly, the statement implies a socioeconomic impact – the increased cost of goods affects consumers differently based on their income levels.  Higher prices disproportionately impact low-income individuals and families. Finally, the term 'merchandizes' might be perceived differently across cultures, potentially containing a subtle cultural bias if it is associated with a negative connotation in some cultural contexts.  While not explicitly stated, this sentence could inadvertently contribute to existing negative narratives surrounding China and potentially harmful stereotypes.",
+
+    "Rewritten (if biased): The cost of goods from China has increased recentl
 
 ## 📚 Use Cases
 Test development teams
