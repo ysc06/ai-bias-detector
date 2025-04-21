@@ -4,7 +4,7 @@ This is a prototype AI-powered tool that detects biased or politically sensitive
 
 ## ✨ Key Features
 
-- **Bias & Sensitivity Detection**: Identifies linguistic bias (e.g., gender, race, socioeconomic) and political sensitivity (e.g., immigration, climate change).
+- **Bias & Sensitivity Detection**: Identifies linguistic bias (e.g., gender, race, socioeconomic) and political sensitivity (e.g., tariffs, war, climate change).
 - **Generative Rewriting**: Rewrites flagged sentences for neutrality and inclusiveness.
 - **Structured Output**: Returns clear explanations in JSON format.
 - **Agentic Reasoning**: Uses LangGraph logic to decide whether to rewrite or pass the item.
